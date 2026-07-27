@@ -1,0 +1,131 @@
+{
+  "actions": {
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "close": "Cerrar",
+    "back": "<< Volver"
+  },
+  "nav": {
+    "home": "Inicio",
+    "dashboard": "Dashboard",
+    "contributions": "Mis aplicaciones",
+    "reviews": "Mis reseñas",
+    "moderations": "Mis moderaciones",
+    "cloud": "Perfil LSG",
+    "statistics": "Estadísticas Cloud",
+    "time-series": "Series Temporales",
+    "sensor-association": "Asociación de Sensores",
+    "data-endpoints": "Puntos de Datos",
+    "catalog": "Vitrina",
+    "store": "Vitrina",
+    "publications": "Aplicaciones",
+    "contributors": "Contribuidores",
+    "publish": "Publicar",
+    "stats": "Estadísticas del Catálogo",
+    "admin": "Admin",
+    "reports-queue": "Cola de Reportes"
+  },
+  "header": {
+    "unlogged": "Ingresar",
+    "logged": "Ingresado como {name}",
+    "change-language": "Cambiar idioma",
+    "switch-to-light": "Cambiar a tema claro",
+    "switch-to-dark": "Cambiar a tema oscuro"
+  },
+  "login": {
+    "logout": "Cerrar sesión"
+  },
+  "settings": {
+    "title": "Configuración",
+    "language": {
+      "title": "Idioma",
+      "select": "Selecciona idioma",
+      "english": "Inglés",
+      "spanish": "Español"
+    }
+  },
+  "auth": {
+    "dialog": {
+      "sign-in": "Iniciar sesión",
+      "sign-up": "Registrarse",
+      "forgot-password": "¿Olvidaste tu contraseña?"
+    },
+    "sign-in": {
+      "email-label": "Correo electrónico",
+      "email-placeholder": "Ingresa tu correo",
+      "password-label": "Contraseña",
+      "password-placeholder": "Al menos 8 caracteres",
+      "forgot-password": "¿Olvidaste tu contraseña?",
+      "submit": "Iniciar sesión",
+      "register-link": "Registrarse",
+      "github": "Continuar con Github",
+      "google": "Continuar con Google",
+      "error-required": "Por favor ingresa tu correo y contraseña.",
+      "error-invalid-credentials": "Correo o contraseña incorrectos. Intenta nuevamente.",
+      "error-account-conflict": "Este correo está vinculado a otro proveedor. Intenta con Google o GitHub.",
+      "error-default": "Error al iniciar sesión. Intenta nuevamente."
+    },
+    "sign-up": {
+      "username-label": "Nombre de usuario",
+      "username-placeholder": "Ingresa tu nombre de usuario",
+      "email-label": "Correo electrónico",
+      "email-placeholder": "Ingresa tu correo",
+      "password-label": "Contraseña",
+      "password-placeholder": "Al menos 8 caracteres",
+      "confirm-password-label": "Confirmar contraseña",
+      "confirm-password-placeholder": "Confirma tu contraseña",
+      "submit": "Registrarse",
+      "error-passwords-mismatch": "Las contraseñas no coinciden.",
+      "error-default": "Error al registrarse. Intenta nuevamente.",
+      "error-email-in-use": "Este correo ya está registrado. Por favor inicia sesión.",
+      "error-weak-password": "La contraseña debe tener al menos 6 caracteres.",
+      "error-invalid-email": "Por favor ingresa un correo válido."
+    },
+    "forgot-password": {
+      "description": "Ingresa tu correo y te enviaremos instrucciones para restablecer tu contraseña",
+      "email-placeholder": "Ingresa tu correo",
+      "submit": "Enviar",
+      "success": "Correo de restablecimiento enviado con éxito",
+      "error": "Ingresa un correo válido"
+    }
+  },
+  "cloud": {
+    "statistics": "Estadísticas Cloud",
+    "statistics-subtitle": "Resumen de tu perfil multidimensional",
+    "dimensions": "Dimensiones",
+    "dimensions-overview": "Resumen de Dimensiones",
+    "dimensions-evolution": "Evolución de Dimensiones",
+    "subattributes": "Subatributos",
+    "time-series": "Series Temporales",
+    "time-series-subtitle": "Observa cómo evolucionan tus dimensiones en el tiempo",
+    "sensor-association": "Asociación de Sensores",
+    "sensor-association-subtitle": "Observa cómo tus sensores contribuyen a cada dimensión",
+    "sensor-dimension-contribution": "Contribución de Sensores por Dimensión",
+    "contribution-detail": "Detalle de Contribuciones",
+    "data-endpoints": "Puntos de Datos",
+    "data-endpoints-subtitle": "Registros detallados de puntos de atributos adquiridos y gastados",
+    "acquired-subattributes": "Subatributos Adquiridos",
+    "expended-attributes": "Atributos Gastados",
+    "no-data": "Sin datos disponibles",
+    "loading": "Cargando...",
+    "error-loading": "Error al cargar datos. Intenta nuevamente.",
+    "profile": "Perfil",
+    "total-points": "Puntos Totales",
+    "points": "Puntos",
+    "sensor": "Sensor",
+    "dimension": "Dimensión",
+    "subattribute": "Subatributo",
+    "endpoint": "Endpoint",
+    "date": "Fecha",
+    "game": "Juego",
+    "mechanic": "Mecánica",
+    "select-dimension": "Selecciona una dimensión",
+    "sensor-contribution": "Contribución de Sensores y Endpoints",
+    "date-from": "Desde",
+    "date-to": "Hasta",
+    "refresh": "Actualizar"
+  }
+}

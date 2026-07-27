@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "moduleDetection": "force",
+    "sourceMap": true,
+    "noEmit": true,
+    "strict": true,
+    "jsx": "preserve",
+
+    // Gradual migration
+    "allowJs": true,
+    "checkJs": false,
+
+    // Helpful error checks
+    "noFallthroughCasesInSwitch": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+
+    // Compatibility
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+
+    // Path aliases
+    "paths": {
+      "@/*": ["./src/*"],
+      // vuex 4.1.0 exports map lacks a types condition, breaks under Bundler resolution
+      "vuex": ["./node_modules/vuex/types/index.d.ts"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue", "src/**/*.js"],
+  "exclude": ["node_modules", "dist"]
+}

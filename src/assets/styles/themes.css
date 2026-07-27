@@ -1,0 +1,98 @@
+[data-theme='dark'] {
+  --input-radius: 0em;
+  --image-radius: 0%;
+  --primary-color: #fa5e15;
+  --primary-color-90: rgba(250, 94, 21, 0.9);
+  --primary-color-80: rgba(250, 94, 21, 0.8);
+  --primary-color-70: rgba(250, 94, 21, 0.7);
+  --primary-color-60: rgba(250, 94, 21, 0.6);
+  --primary-color-50: rgba(250, 94, 21, 0.5);
+  --primary-color-40: rgba(250, 94, 21, 0.4);
+  --primary-color-35: rgba(250, 94, 21, 0.35);
+  --primary-color-30: rgba(250, 94, 21, 0.3);
+  --primary-color-25: rgba(250, 94, 21, 0.25);
+  --primary-color-20: rgba(250, 94, 21, 0.2);
+  --primary-color-15: rgba(250, 94, 21, 0.15);
+  --primary-color-10: rgba(250, 94, 21, 0.1);
+  --secondary-color: #018abe;
+  --primary-color-dark: #682100;
+  --accent-color: #ff6200;
+  --text-color: #ffffff;
+  --text-color-light: #a5a5a5;
+  --success-color: #599759;
+  --error-color: #d14d4d;
+  --disabled-color: #9b9b9b;
+  --disabled-color-light: #a4a4a4;
+  --disabled-color-dark: #6b6b6b;
+  --navbar-bg-color: #03111a;
+  --navbar-gradient: linear-gradient(90deg, transparent 0%, rgba(71, 22, 3, 0.5) 100%);
+  --dropdown-bg-color: #1e1e1e;
+  --background-color: #161616;
+  --publish-image-color: #363636;
+  --background-secondary-color: #1f1f1f;
+  --background-transparent: rgba(0, 0, 0, 0.5);
+  --main-gradient:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.2) 22%, rgba(0, 0, 0, 0.35) 85%), var(--primary-color);
+  --secondary-gradient: linear-gradient(90deg, transparent 0%, rgba(71, 22, 3, 0.5) 100%);
+  --background-gradient: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.356) 10%,
+    rgba(71, 22, 3, 0.35) 50%,
+    rgba(0, 0, 0, 0.356) 90%
+  );
+  --border-color-subtle: #222222;
+  --surface-overlay: rgba(0, 0, 0, 0.6);
+  --surface-raised: rgba(0, 0, 0, 0.9);
+}
+
+[data-theme='light'] {
+  --input-radius: 0em;
+  --image-radius: 0%;
+  --primary-color: #fa5e15;
+  --primary-color-90: rgba(250, 94, 21, 0.9);
+  --primary-color-80: rgba(250, 94, 21, 0.8);
+  --primary-color-70: rgba(250, 94, 21, 0.7);
+  --primary-color-60: rgba(250, 94, 21, 0.6);
+  --primary-color-50: rgba(250, 94, 21, 0.5);
+  --primary-color-40: rgba(250, 94, 21, 0.4);
+  --primary-color-35: rgba(250, 94, 21, 0.35);
+  --primary-color-30: rgba(250, 94, 21, 0.3);
+  --primary-color-25: rgba(250, 94, 21, 0.25);
+  --primary-color-20: rgba(250, 94, 21, 0.2);
+  --primary-color-15: rgba(250, 94, 21, 0.15);
+  --primary-color-10: rgba(250, 94, 21, 0.1);
+  --primary-color-5: rgba(250, 94, 21, 0.05);
+  --secondary-color: #0077a8;
+  --primary-color-dark: #c04a10;
+  --accent-color: #ff6200;
+  --text-color: #1a1a1a;
+  --text-color-light: #252525;
+  --success-color: #3a7d3a;
+  --error-color: #b83232;
+  --disabled-color: #7a7a7a;
+  --disabled-color-light: #8a8a8a;
+  --disabled-color-dark: #5a5a5a;
+  --navbar-bg-color: #03111a;
+  --navbar-gradient: linear-gradient(90deg, transparent 0%, rgba(71, 22, 3, 0.5) 100%);
+  --dropdown-bg-color: #ffffff;
+  --background-color: #b3b3b3;
+  --publish-image-color: #363636;
+  --background-secondary-color: #ebe4de;
+  --background-transparent: rgba(245, 240, 236, 0.7);
+  --main-gradient:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.2) 22%, rgba(0, 0, 0, 0.35) 85%), var(--primary-color);
+  --secondary-gradient: linear-gradient(
+    18deg,
+    rgba(245, 240, 236, 0.356) 22%,
+    rgba(245, 220, 200, 0.35) 85%
+  );
+  --background-gradient: linear-gradient(
+    90deg,
+    rgba(245, 240, 236, 0.35) 10%,
+    rgba(245, 220, 200, 0.792) 50%,
+    rgba(245, 240, 236, 0.35) 90%
+  );
+  --border-color-subtle: #8a8a8a;
+  --surface-overlay: rgba(245, 240, 236, 0.8);
+  --surface-raised: rgba(255, 255, 255, 0.3);
+}

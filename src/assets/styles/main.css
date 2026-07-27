@@ -1,0 +1,345 @@
+@import './themes.css';
+@import 'tailwindcss';
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Shared card style */
+.lsg-card,
+.p-card {
+  background-color: var(--surface-overlay);
+  border: 1px solid var(--border-color-subtle);
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.lsg-card:hover {
+  border-color: var(--primary-color-dark);
+}
+
+.lsg-card__title {
+  font-family: 'Audiowide', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--text-color);
+  text-shadow: 0 0 8px var(--primary-color-25);
+}
+
+.lsg-card__underline {
+  height: 2px;
+  width: 3rem;
+  border-radius: 9999px;
+  background: var(--primary-color);
+  box-shadow: 0 0 6px var(--primary-color-40);
+}
+
+.p-datatable {
+  --p-datatable-header-cell-hover-background: none;
+  --p-datatable-row-hover-background: var(--background-transparent);
+  border: 2px solid var(--border-color-subtle);
+  padding: 10px;
+  border-radius: 5px;
+  background: var(--background-transparent);
+
+  .p-datatable-header {
+    background: transparent;
+  }
+
+  .p-datatable-header-cell,
+  .p-paginator {
+    background: transparent;
+  }
+  .p-datatable-tbody > tr {
+    background: transparent;
+  }
+}
+
+.p-toggleswitch-checked {
+  .p-toggleswitch-slider {
+    background: var(--main-gradient) !important;
+    background-color: var(--secondary-color) !important;
+  }
+
+  .p-toggleswitch-handle {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+  }
+}
+
+.p-dialog {
+  background:
+    linear-gradient(var(--background-transparent)), linear-gradient(var(--background-color)) !important;
+}
+
+.p-button {
+  --p-button-primary-background: var(--main-gradient);
+  --p-button-primary-border-color: var(--primary-color);
+  --p-button-primary-color: white;
+  --p-button-primary-hover-background: var(--primary-color-dark);
+  --p-button-primary-hover-border-color: var(--primary-color-dark);
+  --p-button-primary-hover-color: white;
+}
+
+.p-chip {
+  --p-chip-color: white;
+  --p-chip-icon-color: white;
+  --p-chip-remove-icon-color: white;
+  cursor: default;
+  border-radius: 4px 0 !important;
+  corner-shape: bevel;
+  &:hover {
+    cursor: pointer;
+    background: var(--primary-color-dark);
+  }
+}
+
+.p-tooltip {
+  --p-tooltip-background: var(--background-color);
+  --p-tooltip-color: var(--text-color);
+  --p-tooltip-shadow: 0 0 5px var(--background-transparent);
+}
+
+.p-dataview {
+  --p-dataview-header-background: none;
+  --p-dataview-content-background: none;
+  --p-dataview-footer-background: none;
+  --p-paginator-background: var(--background-transparent);
+  .p-dataview-paginator-bottom {
+    border: none;
+  }
+}
+
+.p-tabs {
+  --p-tabs-tablist-background: none;
+  --p-tabs-tabpanel-background: none;
+}
+
+.p-divider {
+  --p-divider-content-background:
+    linear-gradient(var(--background-transparent)), linear-gradient(var(--background-color)) !important;
+}
+
+.apexcharts-menu {
+  background: var(--background-secondary-color) !important;
+  border: 1px solid var(--border-color-subtle) !important;
+}
+
+.apexcharts-menu-item {
+  color: var(--text-color) !important;
+}
+
+.apexcharts-menu-item:hover {
+  background: var(--primary-color-15) !important;
+}
+
+.p-card {
+  --p-card-background:
+    linear-gradient(var(--background-transparent)), linear-gradient(var(--background-color)) !important;
+  --p-card-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+  cursor: default;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+html {
+  font-size: 1rem;
+  background: var(--background-gradient);
+  background-color: var(--background-color);
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 769px) {
+  html {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1025px) {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+code {
+  font-family:
+    Consolas, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono',
+    'Bitstream Vera Sans Mono', 'Courier New';
+}
+
+.documentation a {
+  color: var(--text-color);
+  text-decoration-line: underline;
+}
+
+.documentation a:hover {
+  color: #ff6200;
+}
+
+.highlighted {
+  color: #00aa00;
+  border-color: #ff00c8;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: underline;
+  text-overflow: overflow;
+  text-wrap: nowrap;
+  &:hover {
+    color: var(--primary-color-dark);
+  }
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='number'],
+input[type='select'],
+input[type='url'],
+select {
+  color: var(--text-color);
+  height: 36px;
+  line-height: 36px;
+  background-color: var(--background-secondary-color);
+  border-radius: 5px;
+  padding-inline: 10px;
+}
+
+input[type='radio'] {
+  accent-color: var(--primary-color);
+}
+
+.p-inputtext {
+  --p-inputtext-invalid-border-color: var(--error-color);
+}
+.p-textarea {
+  --p-textarea-invalid-border-color: var(--error-color);
+}
+
+.p-chip {
+  --p-chip-background: var(--main-gradient);
+}
+
+.p-select {
+  --p-select-hover-border-color: var(--primary-color);
+  --p-select-background: var(--background-secondary-color);
+  height: 36px;
+  box-sizing: content-box;
+}
+
+textarea {
+  background-color: var(--background-secondary-color) !important;
+  line-height: 36px;
+  border-radius: 5px;
+  padding-inline: 10px;
+  width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.text-wrapper {
+  font-weight: 200;
+}
+
+.text-wrapper > p:first-child {
+  font-weight: 400;
+}
+
+.text-wrapper > p:nth-child(3) {
+  font-weight: 700;
+}
+
+.text-wrapper > p:nth-child(4) {
+  font-weight: 700;
+}
+
+.set-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+[v-cloak] {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover * {
+  color: #ff6200;
+  transition: all 0.2s ease-in-out;
+}
+
+.popup__close {
+  position: absolute;
+  cursor: pointer;
+  top: 0.7rem;
+  right: 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.popup__close:hover {
+  color: #ff6200;
+}
+
+.main-contributions {
+  width: 100%;
+  padding: 2rem;
+  overflow-y: visible;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(12, 8, 6);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color-dark);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}

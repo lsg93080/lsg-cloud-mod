@@ -1,0 +1,131 @@
+{
+  "actions": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "back": "<< Go Back"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "contributions": "My apps",
+    "reviews": "My reviews",
+    "moderations": "My moderations",
+    "cloud": "LSG Profile",
+    "statistics": "Cloud Statistics",
+    "time-series": "Time Series",
+    "sensor-association": "Sensor Association",
+    "data-endpoints": "Data Endpoints",
+    "catalog": "Catalog",
+    "store": "Store",
+    "publications": "Apps",
+    "contributors": "Contributors",
+    "publish": "Publish",
+    "stats": "Catalog Statistics",
+    "admin": "Admin",
+    "reports-queue": "Reports Queue"
+  },
+  "header": {
+    "unlogged": "Login",
+    "logged": "Logged as {name}",
+    "change-language": "Change language",
+    "switch-to-light": "Switch to light theme",
+    "switch-to-dark": "Switch to dark theme"
+  },
+  "login": {
+    "logout": "Logout"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": {
+      "title": "Language",
+      "select": "Select language",
+      "english": "English",
+      "spanish": "Spanish"
+    }
+  },
+  "auth": {
+    "dialog": {
+      "sign-in": "Sign In",
+      "sign-up": "Sign Up",
+      "forgot-password": "Forgot your password?"
+    },
+    "sign-in": {
+      "email-label": "Email address",
+      "email-placeholder": "Enter your email",
+      "password-label": "Password",
+      "password-placeholder": "At least 8 characters",
+      "forgot-password": "Forgot password?",
+      "submit": "Sign In",
+      "register-link": "Register",
+      "github": "Continue with Github",
+      "google": "Continue with Google",
+      "error-required": "Please enter your email and password.",
+      "error-invalid-credentials": "Incorrect email or password. Please try again.",
+      "error-account-conflict": "This email is linked to a different provider. Try signing in with Google or GitHub.",
+      "error-default": "Sign in failed. Please try again."
+    },
+    "sign-up": {
+      "username-label": "Username",
+      "username-placeholder": "Enter your username",
+      "email-label": "Email address",
+      "email-placeholder": "Enter your email",
+      "password-label": "Password",
+      "password-placeholder": "At least 8 characters",
+      "confirm-password-label": "Confirm Password",
+      "confirm-password-placeholder": "Confirm your password",
+      "submit": "Sign Up",
+      "error-passwords-mismatch": "Passwords don't match.",
+      "error-default": "Sign up failed. Please try again.",
+      "error-email-in-use": "This email is already registered. Please sign in instead.",
+      "error-weak-password": "Password must be at least 6 characters.",
+      "error-invalid-email": "Please enter a valid email address."
+    },
+    "forgot-password": {
+      "description": "Enter your email and we will send you instructions to reset your password",
+      "email-placeholder": "Enter your email",
+      "submit": "Send",
+      "success": "Successfully sent reset email",
+      "error": "Enter valid email"
+    }
+  },
+  "cloud": {
+    "statistics": "Cloud Statistics",
+    "statistics-subtitle": "Overview of your multidimensional profile",
+    "dimensions": "Dimensions",
+    "dimensions-overview": "Dimensions Overview",
+    "dimensions-evolution": "Dimensions Evolution",
+    "subattributes": "Subattributes",
+    "time-series": "Time Series",
+    "time-series-subtitle": "Track how your dimensions evolve over time",
+    "sensor-association": "Sensor Association",
+    "sensor-association-subtitle": "See how your connected sensors contribute to each dimension",
+    "sensor-dimension-contribution": "Sensor Contribution by Dimension",
+    "contribution-detail": "Contribution Detail",
+    "data-endpoints": "Data Endpoints",
+    "data-endpoints-subtitle": "Detailed records of acquired and expended attribute points",
+    "acquired-subattributes": "Acquired Subattributes",
+    "expended-attributes": "Expended Attributes",
+    "no-data": "No data available",
+    "loading": "Loading...",
+    "error-loading": "Failed to load data. Please try again.",
+    "profile": "Profile",
+    "total-points": "Total Points",
+    "points": "Points",
+    "sensor": "Sensor",
+    "dimension": "Dimension",
+    "subattribute": "Subattribute",
+    "endpoint": "Endpoint",
+    "date": "Date",
+    "game": "Game",
+    "mechanic": "Mechanic",
+    "select-dimension": "Select a dimension",
+    "sensor-contribution": "Sensor & Endpoint Contribution",
+    "date-from": "From",
+    "date-to": "To",
+    "refresh": "Refresh"
+  }
+}
