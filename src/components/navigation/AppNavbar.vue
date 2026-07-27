@@ -101,7 +101,7 @@
             </button>
             <ul v-show="dropdowns.store" class="dropdown">
               <li>
-                <a :href="vitrinaRoutes.publications" class="dropdown-link" @click="closeMobile">
+                <a :href="vitrinaUrl + '/#/store/publications'" class="dropdown-link" @click="closeMobile">
                   <font-awesome-icon icon="gamepad" class="dropdown-icon" />
                   {{ t('nav.publications') }}
                 </a>
@@ -175,7 +175,7 @@
       </div>
 
       <div class="nav-right">
-        <a :href="vitrinaRoutes.publications" class="nav-action" title="Search">
+        <a :href="vitrinaUrl + '/#/store/publications'" class="nav-action" title="Search">
           <font-awesome-icon icon="search" />
         </a>
 
@@ -266,7 +266,7 @@ import { useI18n } from 'vue-i18n'
 import { useAppStore } from '@/composables/useAppStore'
 import { useTheme } from '@/composables/useTheme'
 import { useToast } from 'primevue/usetoast'
-import { externalRoutes, vitrinaRoutes } from '@/config/externalRoutes'
+import { externalRoutes } from '@/config/externalRoutes'
 
 const navRef = ref<HTMLElement | null>(null)
 
