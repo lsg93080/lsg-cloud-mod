@@ -1,2 +1,16 @@
-# bGames-APIrestPOSTAtt
-[![Build Status](https://travis-ci.com/Tisks/bGames-APIrestPOSTAtt.svg?branch=main)](https://travis-ci.com/Tisks/bGames-APIrestPOSTAtt)[![Coverage Status](https://coveralls.io/repos/github/Tisks/bGames-APIrestPOSTAtt/badge.svg?branch=main)](https://coveralls.io/github/Tisks/bGames-APIrestPOSTAtt?branch=main)[![Maintainability](https://api.codeclimate.com/v1/badges/378ed6eaf8b3f41a2ee0/maintainability)](https://codeclimate.com/github/Tisks/bGames-APIrestPOSTAtt/maintainability)[![Test Coverage](https://api.codeclimate.com/v1/badges/378ed6eaf8b3f41a2ee0/test_coverage)](https://codeclimate.com/github/Tisks/bGames-APIrestPOSTAtt/test_coverage)[![Build status](https://ci.appveyor.com/api/projects/status/g7ocfmaxo1ww6o3l/branch/main?svg=true)](https://ci.appveyor.com/project/Tisks/bgames-apirestpostatt/branch/main)
+# bGames-APIrestPOSTAtt (S02)
+
+Write side of the LifeSync Games Cloud Module's multidimensional user profile. Records acquired/spent attribute points and applies initial and real-time attribute updates.
+
+- **Port:** 3002
+- **Stack:** Express + Babel, MySQL
+- **Env vars:** `PORT`, `DB_HOST`, `DB_PORT`, `DB_USER`, `DB_PASSWORD`, `DB_DATABASE`, `JWT_SECRET`
+
+## Run
+
+Normally run via the platform's `docker-compose.yml` (see `infra/deploy/minimal/`). For standalone dev:
+
+```bash
+npm install
+npm start
+```
