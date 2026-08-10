@@ -1,2 +1,16 @@
-# bGames-StandardAttributesService
-[![Build Status](https://travis-ci.com/Tisks/bGames-StandardAttributesService.svg?branch=docker_image)](https://travis-ci.com/Tisks/bGames-StandardAttributesService)[![Coverage Status](https://coveralls.io/repos/github/Tisks/bGames-StandardAttributesService/badge.svg?branch=docker_image)](https://coveralls.io/github/Tisks/bGames-StandardAttributesService?branch=docker_image)[![Maintainability](https://api.codeclimate.com/v1/badges/1865efc1c64f4f8839eb/maintainability)](https://codeclimate.com/github/Tisks/bGames-StandardAttributesService/maintainability)[![Test Coverage](https://api.codeclimate.com/v1/badges/1865efc1c64f4f8839eb/test_coverage)](https://codeclimate.com/github/Tisks/bGames-StandardAttributesService/test_coverage)[![Build status](https://ci.appveyor.com/api/projects/status/0h2u5gq8kal47e8w?svg=true)](https://ci.appveyor.com/project/Tisks/bgames-standardattributesservice)
+# bGames-StandardAttributesService (S10)
+
+Normalizes raw sensor readings into standard attribute values for the LifeSync Games Cloud Module's multidimensional user profile.
+
+- **Port:** 3009
+- **Stack:** Express + Babel, MySQL
+- **Env vars:** `PORT`, `DB_HOST`, `DB_PORT`, `DB_USER`, `DB_PASSWORD`, `DB_DATABASE`, `JWT_SECRET`
+
+## Run
+
+Normally run via the platform's `docker-compose.yml` (see `infra/deploy/minimal/`). For standalone dev:
+
+```bash
+npm install
+npm start
+```
