@@ -1,2 +1,16 @@
-# bGames-UserManagementService
-[![Build Status](https://travis-ci.com/Tisks/bGames-UserManagementService.svg?branch=main)](https://travis-ci.com/Tisks/bGames-UserManagementService)[![Coverage Status](https://coveralls.io/repos/github/Tisks/bGames-UserManagementService/badge.svg?branch=main)](https://coveralls.io/github/Tisks/bGames-UserManagementService?branch=main)[![Maintainability](https://api.codeclimate.com/v1/badges/9c77646f00310c94cb9d/maintainability)](https://codeclimate.com/github/Tisks/bGames-UserManagementService/maintainability)[![Test Coverage](https://api.codeclimate.com/v1/badges/9c77646f00310c94cb9d/test_coverage)](https://codeclimate.com/github/Tisks/bGames-UserManagementService/test_coverage)[![Build status](https://ci.appveyor.com/api/projects/status/r7ghjnwk1cl4v8lf/branch/main?svg=true)](https://ci.appveyor.com/project/Tisks/bgames-usermanagementservice/branch/main)
+# bGames-UserManagementService (S11)
+
+Player/user CRUD for the LifeSync Games Cloud Module — the SSO bridge point where an LSG JWT resolves to a MySQL player record.
+
+- **Port:** 3010
+- **Stack:** Express + Babel, MySQL
+- **Env vars:** `PORT`, `DB_HOST`, `DB_PORT`, `DB_USER`, `DB_PASSWORD`, `DB_DATABASE`, `JWT_SECRET`
+
+## Run
+
+Normally run via the platform's `docker-compose.yml` (see `infra/deploy/minimal/`). For standalone dev:
+
+```bash
+npm install
+npm start
+```
