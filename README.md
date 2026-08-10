@@ -1,2 +1,16 @@
-# bGames-APIrestGETService
-[![Build Status](https://travis-ci.com/Tisks/bGames-APIRestGETService.svg?branch=main)](https://travis-ci.com/Tisks/bGames-APIRestGETService)[![Coverage Status](https://coveralls.io/repos/github/Tisks/bGames-APIRestGETService/badge.svg?branch=main)](https://coveralls.io/github/Tisks/bGames-APIRestGETService?branch=main)[![Maintainability](https://api.codeclimate.com/v1/badges/dd166036c5e98af77019/maintainability)](https://codeclimate.com/github/Tisks/bGames-APIRestGETService/maintainability)[![Test Coverage](https://api.codeclimate.com/v1/badges/dd166036c5e98af77019/test_coverage)](https://codeclimate.com/github/Tisks/bGames-APIRestGETService/test_coverage)[![Build status](https://ci.appveyor.com/api/projects/status/tskwwll78t4xp645/branch/main?svg=true)](https://ci.appveyor.com/project/Tisks/bgames-apirestgetservice/branch/main)
+# bGames-APIRestGETService (S01)
+
+Read side of the LifeSync Games Cloud Module's multidimensional user profile. Serves player attribute/subattribute values and their per-sensor contribution breakdowns.
+
+- **Port:** 3001
+- **Stack:** Express + Babel, MySQL
+- **Env vars:** `PORT`, `DB_HOST`, `DB_PORT`, `DB_USER`, `DB_PASSWORD`, `DB_DATABASE`, `JWT_SECRET`
+
+## Run
+
+Normally run via the platform's `docker-compose.yml` (see `infra/deploy/minimal/`). For standalone dev:
+
+```bash
+npm install
+npm start
+```
