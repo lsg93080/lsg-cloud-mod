@@ -45,8 +45,7 @@ const router = createRouter({
 
 router.beforeEach((to, _from, next) => {
   if (to.meta.requiresAuth && !store.state.jwt) {
-    const cloudUrl = window.location.href.split('#')[0]
-    window.location.href = `${externalRoutes.vitrina}#/login?redirect_uri=${encodeURIComponent(cloudUrl)}`
+    window.location.href = `${externalRoutes.vitrina}#/login`
     return next(false)
   }
   next()
